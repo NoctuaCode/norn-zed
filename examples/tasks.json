@@ -1,0 +1,29 @@
+[
+  {
+    "label": "Timeline: day",
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "command": "zed-timeline",
+    "args": ["--notes", "notes/Daily", "--view", "day", "--active-file", "${ZED_FILE:.}", "--output", ".zed/timeline-preview.md"],
+    "save": "none",
+    "reveal": "no_focus",
+    "hide": "on_success"
+  },
+  {
+    "label": "Timeline: week",
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "command": "zed-timeline",
+    "args": ["--notes", "notes/Daily", "--view", "week", "--active-file", "${ZED_FILE:.}", "--output", ".zed/timeline-preview.md"],
+    "save": "none",
+    "reveal": "no_focus",
+    "hide": "on_success"
+  },
+  {
+    "label": "Timeline: month",
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "command": "zed-timeline",
+    "args": ["--notes", "notes/Daily", "--view", "month", "--active-file", "${ZED_FILE:.}", "--output", ".zed/timeline-preview.md"],
+    "save": "none",
+    "reveal": "no_focus",
+    "hide": "on_success"
+  }
+]
